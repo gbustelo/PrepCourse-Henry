@@ -1,1 +1,1 @@
-prueba de como bajar un repositorio de github
+este proyecto es una prueba de como crear un repositorio
