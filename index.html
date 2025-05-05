@@ -7,10 +7,61 @@
 </head>
 <body>
   <!-- Contenido de la página va aquí-->
-  <h1>Este es un titulo h1</h1>
-  <h2>Este es un titulo h2</h2>
-  <h3>Este es un titulo h3</h3>
+
+  <header>
+
+    <h1>Este es el titulo principal</h1>
+
+    <span>Home</span>
+    <span>Noticias</span>
+    <span>El clima</span>
+
+  </header>
+ <main>
+
+  <img src="./1600w-Vh4S5Wt7FD4.jpg"/>
+
+  <section>
+    <article> 
+      <h2>Este es un titulo de una sección de noticias</h2>
+      <h3>Esta es la noticia 1</h3>
+    <div>
+      <p>Esta sera el primer parrafo de mi noticia</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa repellendus nobis cupiditate commodi placeat, tenetur optio tempore 
+        dicta delectus molestiae maiores sint porro impedit, enim, dolore vero eaque sequi veniam!</p>
+    </div>
+      
+    </article>
+  
+  <hr />
+
+  <article>
+    <h3>Esta es la noticia 2</h3>
+
+    <p>Este es un listado de cosas importantes</p>
+  
+    <ol>
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+    </ol>
+  
+    </article>  
+  <hr />
+<article>
+  <h3>Esta es la noticia 3</h3>
+
+  <p>Esta es una lista no ordenada</p>
+
+  <ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+  </ul>
+</article>
+  
+  </section>  
+
   <a>link</a>
+
   <h2>Formulario de contacto</h2>
     <form action="/enviar_datos" method="post">
         <div>
@@ -18,8 +69,7 @@
           <input type="text" id="nombre" name="nombre"><br>
         </div>
         <div>
-          <label for="email">Correo electrónico:</label><br>
-          <input type="email" id="email" name="email"><br>
+          <input type="email" id="email" name="email" placeholder="Email"><br>
         </div>
         <div>
           <label for="edad">Edad:</label><br>
@@ -31,6 +81,15 @@
         </div>
         
         <input type="submit" value="Enviar">
-</form>
+      </form>
+ </main>
+
+ <footer>
+  <p>Este es el footer de mi pagina. Ahora voy a poner unos enlances</p>
+
+ <a href="./contacto.html">Formulario de contacto</a>
+
+ </footer>
+
 </body>
 </html>
