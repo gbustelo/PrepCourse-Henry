@@ -1,0 +1,65 @@
+.fondo {
+
+    background-color: grey;
+}
+
+.miTexto {
+    /* em = Tamaño relativo a la unidad de fuente donde se esta mostrando la fuente*/
+    font-size: 3em;
+    color: green;
+}
+
+h2{
+    background-color: orange;
+}
+
+.title {
+    font-size: 3em;
+    color: #b83652;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1em 1em 1em 1em;
+    border-radius: 1em;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+
+}
+
+.cards:hover{
+background-color: lightblue;
+}
+
+#principal{
+    font-size: 4em;
+}
+
+.portada{
+    width: 200px;
+}
+
+#titulos{
+    border: 2px solid black;
+    /* vw = Viewport Witdh 65% de la pantalla donde se este viendo la web*/
+    width: 65vw;
+    margin: auto;
+    padding: 3em;
+}
+
+#cards-container{
+    background-color: aqua;
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid rgb(68, 62, 62);
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    justify-content:space-around
+}

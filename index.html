@@ -3,66 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./estilos.css" />
   <title>Mi Primer Sitio Web</title>
 </head>
-<body>
+<body class="fondo">
   <!-- Contenido de la página va aquí-->
 
   <header>
 
-    <h1>Este es el titulo principal</h1>
+    <div id="titulos">
 
-    <span>Home</span>
-    <span>Noticias</span>
-    <span>El clima</span>
+      <h1 class="title" id="principal">Este es el titulo principal</h1>
 
+      <span>Home</span>
+      <span>Noticias</span>
+      <span>El clima</span>
+
+    </div>
+        
   </header>
  <main>
 
-  <img src="./1600w-Vh4S5Wt7FD4.jpg"/>
+  <img src="./1600w-Vh4S5Wt7FD4.jpg"/ class="portada">
 
   <section>
-    <article> 
-      <h2>Este es un titulo de una sección de noticias</h2>
-      <h3>Esta es la noticia 1</h3>
-    <div>
-      <p>Esta sera el primer parrafo de mi noticia</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa repellendus nobis cupiditate commodi placeat, tenetur optio tempore 
-        dicta delectus molestiae maiores sint porro impedit, enim, dolore vero eaque sequi veniam!</p>
+
+    <h2 class="title">
+      Este es un titulo de una sección de noticias
+    </h2>
+    <div id="cards-container">
+      <article> 
+          
+        <h3 class="title">
+          Esta es la noticia 1
+        </h3>
+
+      <div class="cards">
+        <p>Esta sera el primer parrafo de mi noticia</p>
+      </div>
+        
+      </article>
+
+      <article>
+
+        <h3 class="title">
+          Esta es la noticia 2
+        </h3>
+      
+        <div class="cards">
+          <p>Este es un listado de cosas importantes</p>
+          
+          <ol>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+          </ol>
+        </div>
+        
+        </article>  
+
+        <article>
+
+          <h3 class="title">
+            Esta es la noticia 3
+          </h3>
+        
+          <div class="cards">
+            <p>Esta es una lista no ordenada</p>
+        
+            <ul>
+              <li>Elemento 1</li>
+              <li>Elemento 2</li>
+            </ul>
+        
+          </div>
+      
+        </article>
+
     </div>
       
-    </article>
-  
-  <hr />
-
-  <article>
-    <h3>Esta es la noticia 2</h3>
-
-    <p>Este es un listado de cosas importantes</p>
-  
-    <ol>
-      <li>Elemento 1</li>
-      <li>Elemento 2</li>
-    </ol>
-  
-    </article>  
-  <hr />
-<article>
-  <h3>Esta es la noticia 3</h3>
-
-  <p>Esta es una lista no ordenada</p>
-
-  <ul>
-    <li>Elemento 1</li>
-    <li>Elemento 2</li>
-  </ul>
-</article>
-  
-  </section>  
+</section>  
 
   <a>link</a>
 
-  <h2>Formulario de contacto</h2>
+  <h2 class="title">Formulario de contacto</h2>
     <form action="/enviar_datos" method="post">
         <div>
           <label for="nombre">Nombre:</label><br>
